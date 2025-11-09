@@ -37,7 +37,7 @@ int main(){
 
     int result = binarySearch(arr, size, n);
 
-    cout << "index number is => " << result;
+    if(result != -1)cout << "index number is => " << result << endl;else cout << "Your targeted number not founded" << endl;
 
     return 0;
 }
